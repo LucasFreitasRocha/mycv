@@ -7,12 +7,16 @@ import Skills from './components/pages/skills/Skills';
 import Experiences from './components/pages/experiences/Experiences';
 import Educations from './components/pages/educations/Educations';
 import Portfolios from './components/pages/portfolios/Portfolios';
+import Navbar from './components/navbar/Navbar'
 import './App.css';
 
 function App() {
   return (
+    <>
+ 
     <Router>
       <>
+      <Navbar />
         <Route exact path="/" component={Home} />
         <Switch>
           <Route path="/skills" component={Skills} />
@@ -22,6 +26,7 @@ function App() {
         </Switch>
       </>
     </Router>
+    </>
   );
 }
 

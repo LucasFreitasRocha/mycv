@@ -6,7 +6,7 @@ export default function About() {
       <div className="card">
         <div className="card-content">
           <h6 className="mt-bottom">
-            <strong>ABOUT ME</strong>
+            <strong>Sobre mim</strong>
           </h6>
           <p className="grey-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
@@ -17,30 +17,26 @@ export default function About() {
         </div>
         <div className="card-action">
           <h6>
-            <strong>PERSONAL INFO</strong>
+            <strong>Informações</strong>
           </h6>
           <div className="row mt">
             <div className="col xl6 l6 m6 s12">
               <p>
-                <strong>Address:</strong> 123 Lorem
+                <strong>Endereço:</strong> Av. Franscico Lamego 411 - Campos dos Goytacazes, RJ
               </p>
               <p>
-                <strong>Email:</strong> test@yahoo.com
+                <strong>Email:</strong> rochadefreitaslucas@gmail.com
               </p>
               <p>
-                <strong>Phone:</strong> 123 456 7898
+                <strong>Phone:</strong> (22) 997318077
               </p>
             </div>
             <div className="col xl6 l6 m6 s12">
+             
               <p>
-                <strong>Main Language</strong> - English
+                <strong>Idioma</strong> - Inglês
               </p>
-              <p>
-                <strong>Second Language</strong> - Spanish
-              </p>
-              <p>
-                <strong>Third Language</strong> - Chinese
-              </p>
+              
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function Skills() {
   return (
@@ -9,63 +9,36 @@ export default function Skills() {
             <strong>PROFESSIONAL SKILLS</strong>
           </h6>
           <div className="row mt-top">
-            <div className="col s6">
+            <div className="col s4">
               <p>HTML</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '89%' }}
-                ></div>
-              </div>
             </div>
-            <div className="col s6">
+            <div className="col s4">
               <p>CSS</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '100%' }}
-                ></div>
-              </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col s6">
+            <div className="col s4">
               <p>JAVASCRIPT</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '90%' }}
-                ></div>
-              </div>
-            </div>
-            <div className="col s6">
-              <p>PHP</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '95%' }}
-                ></div>
-              </div>
             </div>
           </div>
           <div className="row">
-            <div className="col s6">
-              <p>MySQL</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '90%' }}
-                ></div>
-              </div>
+            <div className="col s4">
+              <p>PHP</p>
             </div>
-            <div className="col s6">
-              <p>JQUERY</p>
-              <div className="progress grey lighten-1">
-                <div
-                  className="determinate blue"
-                  style={{ width: '70%' }}
-                ></div>
-              </div>
+            <div className="col s4">
+              <p>JAVA</p>
+            </div>
+            <div className="col s4">
+              <p>Ruby</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col s4">
+              <p>Laravel básico</p>
+            </div>
+            <div className="col s4">
+              <p>Spring Boot</p>
+            </div>
+            <div className="col s4">
+              <p>Ruby on Rails básico</p>
             </div>
           </div>
         </div>

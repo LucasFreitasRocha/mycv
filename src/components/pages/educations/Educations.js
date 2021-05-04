@@ -4,12 +4,12 @@ import { HashLink as Link } from 'react-router-hash-link';
 export default function Educations() {
 	return (
 		<div>
-			<div class='card'>
-				<div class='card-content'>
+			<div className='card'>
+				<div className='card-content'>
 					<h6>
 						<strong>EDUCATION</strong>
 					</h6>
-					<table class='striped'>
+					<table className='striped'>
 						<thead>
 							<tr>
 								<th>Certificate</th>
@@ -22,7 +22,7 @@ export default function Educations() {
 								<td>Web Development</td>
 								<td>Jan 2018</td>
 								<td>
-									<Link to='/details' class='btn blue lighten-2'>
+									<Link to='/details' className='btn blue lighten-2'>
 										View
 									</Link>
 								</td>
@@ -31,7 +31,7 @@ export default function Educations() {
 								<td>Graphic Design</td>
 								<td>May 2018</td>
 								<td>
-									<Link to='/details' class='btn blue lighten-2'>
+									<Link to='/details' className='btn blue lighten-2'>
 										View
 									</Link>
 								</td>
@@ -40,7 +40,7 @@ export default function Educations() {
 								<td>Tech Gadgets</td>
 								<td>June 2018</td>
 								<td>
-									<Link to='/details' class='btn blue lighten-2'>
+									<Link to='/details' className='btn blue lighten-2'>
 										View
 									</Link>
 								</td>
@@ -49,7 +49,7 @@ export default function Educations() {
 								<td>Other</td>
 								<td>Dec 2018</td>
 								<td>
-									<Link to='/details' class='btn blue lighten-2'>
+									<Link to='/details' className='btn blue lighten-2'>
 										View
 									</Link>
 								</td>

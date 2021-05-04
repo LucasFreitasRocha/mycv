@@ -1,22 +1,23 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ImgProfile from '../../../images/person1.jpg';
+ 
 
 export default function Profile() {
+	const ImgProfile = 'https://avatars.githubusercontent.com/u/33586465?v=4';
 	return (
 		<div>
 			<div className='card'>
 				<div className='card-image'>
 					<img className='activator' src={ImgProfile} alt='John Doe' />
-					<Link className='btn-floating halfway-fab waves-effect waves-light red'>
+					<span className='btn-floating halfway-fab waves-effect waves-light red'>
 						<i className='material-icons activator'>more_vert</i>
-					</Link>
+					</span>
 				</div>
 				<div className='card-content'>
 					<span className='card-title activator grey-text text-darken-4'>
-						John Doe
+						Lucas Freitas da Rocha
 					</span>
-					<p>Full Stack Web Developer</p>
+					<p>Backend Developer</p>
 				</div>
 				<div className='card-reveal'>
 					<span className='card-title grey-text text-darken-4'>
