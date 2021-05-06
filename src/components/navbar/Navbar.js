@@ -23,17 +23,17 @@ export default class Navbar extends Component {
 								</li>
 								<li>
 									<Link to='/skills'>
-										<i className='fas fa-copy'></i> Skills
+										<i className='fas fa-copy'></i> Habilidades
 									</Link>
 								</li>
 								<li>
 									<Link to='/experiences'>
-										<i className='fas fa-id-badge'></i> Experiences
+										<i className='fas fa-id-badge'></i> experiências
 									</Link>
 								</li>
 								<li>
 									<Link to='/educations'>
-										<i className='fas fa-graduation-cap'></i> Educations
+										<i className='fas fa-graduation-cap'></i> Formação
 									</Link>
 								</li>
 								<li>

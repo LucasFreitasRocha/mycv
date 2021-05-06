@@ -12,7 +12,7 @@ export default function Experiences() {
           <div className="row mt-top">
             <div className="col xl4 l4 m6 s12">
               <p className="teal year_exp white-text pd-10">
-                Novembro 2020 <br /> momento
+                Novembro 2020 <br />  O momento
               </p>
             </div>
             <div className="col xl8 l8 m6 s12">

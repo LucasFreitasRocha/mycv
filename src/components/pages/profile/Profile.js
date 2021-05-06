@@ -23,12 +23,12 @@ export default function Profile() {
 						Follow Me
 						<i className='material-icons right'>close</i>
 					</span>
-					<p className='flex-container'>
+					<p className='flex-container center'>
 						<a href="https://github.com/LucasFreitasRocha"   rel="noopener noreferrer" target="_blank">
-						<i className='fab fa-github grey-text text-darken-4 social_style'></i>
+						<i className='fab fa-github grey-text text-darken-4 social_style t-50'></i>
 						</a>
 						<a href="https://www.linkedin.com/in/devrocha/"   rel="noopener noreferrer" target="_blank">
-						<i className='fab fa-linkedin grey-text text-darken-4 social_style'></i>
+						<i className='fab fa-linkedin grey-text text-darken-4 social_style t-50'></i>
 						</a>
 						
 					</p>

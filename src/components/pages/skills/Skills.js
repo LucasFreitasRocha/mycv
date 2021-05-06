@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div>
+    <div >
       <div className="card">
         <div className="card-content">
           <h6>
-            <strong>PROFESSIONAL SKILLS</strong>
+            <strong>Habilidades</strong>
           </h6>
           <div className="row mt-top">
             <div className="col s4">
@@ -39,6 +39,28 @@ export default function Skills() {
             </div>
             <div className="col s4">
               <p>Ruby on Rails básico</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col s4">
+              <p>Vuejs</p>
+            </div>
+            <div className="col s4">
+              <p>Reactjs</p>
+            </div>
+            <div className="col s4">
+              <p>Angular</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col s4">
+              <p>BPMN básico</p>
+            </div>
+            <div className="col s4">
+              <p>Gestão de competências básico </p>
+            </div>
+            <div className="col s4">
+              <p>C</p>
             </div>
           </div>
         </div>

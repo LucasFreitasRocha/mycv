@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Educations() {
 	return (
@@ -38,15 +37,6 @@ export default function Educations() {
 								<td>Técnico em Automação Industrial</td>
 								<td>
 									2016
-								</td>
-							</tr>
-							<tr>
-								<td>Graphic Design</td>
-								<td>May 2018</td>
-								<td>
-									<Link to='/details' className='btn blue lighten-2'>
-										View
-									</Link>
 								</td>
 							</tr>
 						</tbody>
