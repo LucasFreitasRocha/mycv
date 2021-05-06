@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
  
 
 export default function Profile() {
@@ -25,10 +24,10 @@ export default function Profile() {
 						<i className='material-icons right'>close</i>
 					</span>
 					<p className='flex-container'>
-						<a href="https://github.com/LucasFreitasRocha" target="_blank">
+						<a href="https://github.com/LucasFreitasRocha"   rel="noopener noreferrer" target="_blank">
 						<i className='fab fa-github grey-text text-darken-4 social_style'></i>
 						</a>
-						<a href="https://www.linkedin.com/in/devrocha/" target="_blank">
+						<a href="https://www.linkedin.com/in/devrocha/"   rel="noopener noreferrer" target="_blank">
 						<i className='fab fa-linkedin grey-text text-darken-4 social_style'></i>
 						</a>
 						
