@@ -9,13 +9,17 @@ export default function About() {
             <strong>Sobre mim</strong>
           </h6>
           <p>
-            Sou um desenvolvedor backend estudando para melhorar minhas
+          &emsp;Sou um desenvolvedor backend estudando para melhorar minhas
             habilidades no desenvolvimento frontend para assim ser considerado
             um fullstack. Atualmente trabalho na Universidade Candido Mendes
             como desenvolvedor backend com a tecnologia Spring boot, mas já
             trabalhei como desenvolvedor web na Sig Certificadora com as stacks
-            php e vuejs. <br />
-            Estou no 8° período do Bacharel em Sistemas de informação no IFF, na
+            php e vuejs. 
+            
+          </p>
+          <p >
+           
+            &emsp;Estou no 8° período do Bacharel em Sistemas de informação no IFF, na
             faculdade já participei de pesquisas com foco em Gestão de
             competências utilizando BPMN e outra com foco na aprendizagem
             utilizando ruby on rails.
