@@ -25,11 +25,13 @@ export default function Profile() {
 						<i className='material-icons right'>close</i>
 					</span>
 					<p className='flex-container'>
-						<i className='fab fa-facebook-f grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-twitter grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-google-plus-g grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-instagram grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-pinterest grey-text text-darken-4 social_style'></i>
+						<a href="https://github.com/LucasFreitasRocha" target="_blank">
+						<i className='fab fa-github grey-text text-darken-4 social_style'></i>
+						</a>
+						<a href="https://www.linkedin.com/in/devrocha/" target="_blank">
+						<i className='fab fa-linkedin grey-text text-darken-4 social_style'></i>
+						</a>
+						
 					</p>
 				</div>
 			</div>

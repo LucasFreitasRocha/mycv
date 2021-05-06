@@ -7,47 +7,42 @@ export default function Educations() {
 			<div className='card'>
 				<div className='card-content'>
 					<h6>
-						<strong>EDUCATION</strong>
+						<strong>FORMAÇÃO</strong>
 					</h6>
 					<table className='striped'>
 						<thead>
 							<tr>
-								<th>Certificate</th>
+								<th>Local</th>
+								<th>Curso</th>
 								<th>Date</th>
-								<th></th>
+								
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Web Development</td>
-								<td>Jan 2018</td>
+								<td>Instituto Federal Fluminense</td>
+								<td>Bacharel em sistema de Informação</td>
 								<td>
-									<Link to='/details' className='btn blue lighten-2'>
-										View
-									</Link>
+									Cursando
+								</td>
+							</tr>
+							<tr>
+								<td>UPTIME</td>
+								<td>Inglês</td>
+								<td>
+									2018
+								</td>
+							</tr>
+							<tr>
+								<td>Instituto Federal Fluminense</td>
+								<td>Técnico em Automação Industrial</td>
+								<td>
+									2016
 								</td>
 							</tr>
 							<tr>
 								<td>Graphic Design</td>
 								<td>May 2018</td>
-								<td>
-									<Link to='/details' className='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
-							</tr>
-							<tr>
-								<td>Tech Gadgets</td>
-								<td>June 2018</td>
-								<td>
-									<Link to='/details' className='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
-							</tr>
-							<tr>
-								<td>Other</td>
-								<td>Dec 2018</td>
 								<td>
 									<Link to='/details' className='btn blue lighten-2'>
 										View
