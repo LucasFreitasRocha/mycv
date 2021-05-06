@@ -29,6 +29,23 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
 
+      // Or with jQuery
+      $('.section').hide();
+      setTimeout(function() {
+        $(document).ready(function() {
+          $('.section').fadeIn();
+          $('.loader').fadeOut();
+          $('.sidenav').sidenav();
+        });
+      }, 1000);
+    </script>
   </body>
 </html>
