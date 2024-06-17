@@ -6,17 +6,14 @@ export default function Skills() {
       <div className="card">
         <div className="card-content">
           <h6>
-            <strong>Habilidades</strong>
+            <strong>Skills</strong>
           </h6>
           <div className="row mt-top">
             <div className="col s4">
-              <p>HTML</p>
-            </div>
-            <div className="col s4">
-              <p>CSS</p>
-            </div>
-            <div className="col s4">
               <p>JAVASCRIPT</p>
+            </div>
+            <div className="col s4">
+              <p>TypeScript</p>
             </div>
           </div>
           <div className="row">
@@ -27,18 +24,18 @@ export default function Skills() {
               <p>JAVA</p>
             </div>
             <div className="col s4">
-              <p>Ruby</p>
+              <p>GO</p>
             </div>
           </div>
           <div className="row">
             <div className="col s4">
-              <p>Laravel básico</p>
+              <p>Spring Batch</p>
             </div>
             <div className="col s4">
               <p>Spring Boot</p>
             </div>
             <div className="col s4">
-              <p>Ruby on Rails básico</p>
+              <p>Quarkus</p>
             </div>
           </div>
           <div className="row">
@@ -54,13 +51,13 @@ export default function Skills() {
           </div>
           <div className="row">
             <div className="col s4">
-              <p>BPMN básico</p>
+              <p>Docker</p>
             </div>
             <div className="col s4">
-              <p>Gestão de competências básico </p>
+              <p>Kubernetes </p>
             </div>
             <div className="col s4">
-              <p>C</p>
+              <p>Git</p>
             </div>
           </div>
         </div>

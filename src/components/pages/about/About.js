@@ -6,33 +6,22 @@ export default function About() {
       <div className="card">
         <div className="card-content">
           <h6 className="mt-bottom">
-            <strong>Sobre mim</strong>
+            <strong>Resume</strong>
           </h6>
           <p>
-          &emsp;Sou um desenvolvedor backend estudando para melhorar minhas
-            habilidades no desenvolvimento frontend para assim ser considerado
-            um fullstack. Atualmente trabalho na Universidade Candido Mendes
-            como desenvolvedor backend com a tecnologia Spring boot, mas já
-            trabalhei como desenvolvedor web na Sig Certificadora com as stacks
-            php e vuejs. 
-            
+            I am a Bachelor of Information Systems and work as a Systems Analyst specializing in Back-End development. Currently, I am immersed in the Spring Boot ecosystem (Java), where I gained experience during my journey at Candido Mendes University and now continue my development at Banco Original.
+            My professional journey includes web development, with a focus on Back-End. I had the privilege of making significant contributions to a company focused on digital certificates, actively participating in the creation of a new e-commerce platform and internal projects, using PHP and Vue.js.
           </p>
-          <p >
-           
-            &emsp;Estou no 8° período do Bacharel em Sistemas de informação no IFF, na
-            faculdade já participei de pesquisas com foco em Gestão de
-            competências utilizando BPMN e outra com foco na aprendizagem
-            utilizando ruby on rails.
-          </p>
+     
         </div>
         <div className="card-action">
           <h6>
-            <strong>Informações</strong>
+            <strong>PERSONAL INFORMATION</strong>
           </h6>
           <div className="row mt">
             <div className="col xl6 l6 m6 s12">
               <p>
-                <strong>Endereço:</strong> Av. Franscico Lamego 411 - Campos dos
+                <strong>Address:</strong> Av. Dr arthur Bernades 1438 - Campos dos
                 Goytacazes, RJ
               </p>
               <p>
@@ -40,11 +29,6 @@ export default function About() {
               </p>
               <p>
                 <strong>Phone:</strong> (22) 997318077
-              </p>
-            </div>
-            <div className="col xl6 l6 m6 s12">
-              <p>
-                <strong>Idioma</strong> - Inglês
               </p>
             </div>
           </div>

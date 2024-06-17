@@ -11,18 +11,18 @@ export default function Educations() {
 					<table className='striped'>
 						<thead>
 							<tr>
-								<th>Local</th>
-								<th>Curso</th>
+								<th>Location</th>
+								<th>Course</th>
 								<th>Date</th>
 								
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Instituto Federal Fluminense</td>
-								<td>Bacharel em sistema de Informação</td>
+								<td>IFF - Instituto Federal Fluminense</td>
+								<td>Bachelor in Information Systems</td>
 								<td>
-									Cursando
+								September 2016 – November 2022
 								</td>
 							</tr>
 							<tr>
@@ -33,10 +33,10 @@ export default function Educations() {
 								</td>
 							</tr>
 							<tr>
-								<td>Instituto Federal Fluminense</td>
-								<td>Técnico em Automação Industrial</td>
+								<td>IFF - Instituto Federal Fluminense</td>
+								<td>Technician in Industrial Automation</td>
 								<td>
-									2016
+									June 2014 – July 2016
 								</td>
 							</tr>
 						</tbody>
